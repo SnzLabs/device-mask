@@ -58,6 +58,14 @@ values, while your real device, SIM and eSIM stay exactly as they are.
   it over HTTPS, and every premium use is re-verified with the server
   so a modded client cannot unlock premium offline.
 
+## Screenshots
+
+| Main | Privacy & Device IDs | Timezone & GPS | SIM 1 |
+| --- | --- | --- | --- |
+| ![Main screen](screenshots/01-main.jpg) | ![Privacy and device IDs](screenshots/02-privacy.jpg) | ![Timezone and GPS](screenshots/04-timezone-gps.jpg) | ![SIM 1](screenshots/05-sim1.jpg) |
+
+More screenshots in the [`screenshots/`](screenshots/) folder.
+
 ## Installation
 
 1. Install the APK (see
