@@ -11,6 +11,27 @@ hardware, SIM and system values are never changed.
 - Hook version: **0.4.9** (the LSPosed module marker)
 - Requires: rooted Android (KernelSU or Magisk) + LSPosed, Android 10+
 
+## What you can do with it
+
+- **Spoof your device** — make any selected app see a different phone:
+  model, manufacturer, brand, fingerprint and codename, from 268+
+  real models.
+- **Spoof your location and country** — GPS coordinates, country and
+  timezone follow the country you pick (118 countries).
+- **Spoof your network** — operator, operator name, MCC/MNC, SIM serial
+  (ICCID), IMSI and phone number, per SIM.
+- **Spoof your EID** — the eSIM identifier shown to apps can be changed
+  to the one that belongs to the chosen device.
+- **Enable eSIM support** — apps that check whether the device supports
+  eSIM see it as supported, so eSIM features and testers work on any
+  app you choose.
+- **Spoof the rest too** — IMEI, MAC address, WebView user-agent and
+  more, each with its own on/off switch, so you only change what you
+  want to change.
+
+Everything above is display-only: the chosen app sees the spoofed
+values, while your real device, SIM and eSIM stay exactly as they are.
+
 ## Features
 
 - **268 device models** across all major brands (Samsung, Pixel, OnePlus,
