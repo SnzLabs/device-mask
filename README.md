@@ -2,7 +2,9 @@
 
 **Device Mask** is an LSPosed module that lets selected apps see a different
 device identity — model, manufacturer, country, operator, timezone, EID and
-SIM details — while the real device stays untouched. It is display-only
+SIM details — while the real device stays untouched. With 1068 devices and
+a strong, stable connection between the app and the module, the spoofed
+values show up reliably every time you open a checked app. It is display-only
 spoofing: the checker or tester app shows the chosen values, the real eSIM,
 hardware, SIM and system values are never changed.
 
