@@ -7,7 +7,7 @@ spoofing: the checker or tester app shows the chosen values, the real eSIM,
 hardware, SIM and system values are never changed.
 
 - Package: `com.device.mask`
-- Current version: **1.0.21** (versionCode 62)
+- Current version: **1.0.24** (versionCode 65)
 - Hook version: **0.4.9** (the LSPosed module marker)
 - Requires: rooted Android (KernelSU or Magisk) + LSPosed, Android 10+
 
@@ -72,9 +72,10 @@ More screenshots in the [`screenshots/`](screenshots/) folder.
    [Releases](https://github.com/SnzLabs/device-mask/releases)).
 2. Enable **Device Mask** in LSPosed and tick the apps it should run in
    (e.g. your checker app).
-3. Reboot.
+3. Reboot (only needed the first time you enable the module).
 4. Open Device Mask, pick a model and a country, save, then force-stop
-   the target app and re-check it.
+   the target app and re-check it. Model changes after that apply live
+   — no reboot needed.
 
 ## Build from source
 
