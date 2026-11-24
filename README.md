@@ -7,14 +7,14 @@ spoofing: the checker or tester app shows the chosen values, the real eSIM,
 hardware, SIM and system values are never changed.
 
 - Package: `com.device.mask`
-- Current version: **1.0.24** (versionCode 65)
+- Current version: **1.0.27** (versionCode 68)
 - Hook version: **0.4.9** (the LSPosed module marker)
 - Requires: rooted Android (KernelSU or Magisk) + LSPosed, Android 10+
 
 ## What you can do with it
 
 - **Spoof your device** — make any selected app see a different phone:
-  model, manufacturer, brand, fingerprint and codename, from 268+
+  model, manufacturer, brand, fingerprint and codename, from 1068
   real models.
 - **Spoof your location and country** — GPS coordinates, country and
   timezone follow the country you pick (118 countries).
@@ -34,7 +34,7 @@ values, while your real device, SIM and eSIM stay exactly as they are.
 
 ## Features
 
-- **268 device models** across all major brands (Samsung, Pixel, OnePlus,
+- **1068 device models** across all major brands (Samsung, Pixel, OnePlus,
   Xiaomi, Vivo, OPPO, Huawei, iPhone, ROG, and more), each with its real
   fingerprint, codename and CPU/GPU where known.
 - **118 countries** with operators, dial codes, timezones and GPS
